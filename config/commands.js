@@ -79,6 +79,11 @@ const commands = {
     term.displayURL("https://www.youtube.com/@hack2tfuture");
   },
 
+  linkedin: function () {
+    term.displayURL("https://www.linkedin.com/company/hack2tfuture");
+  },
+
+
   discord: function () {
     term.openURL(club);
   },
