@@ -19,4 +19,8 @@ const social = {
       name: "youtube",
       link: "https://youtube.com/@hack2tfuture",
     },
+    linkedin: {
+      name: "linkedin",
+      link: "https://www.linkedin.com/company/hack2tfuture",
+    },
   };
