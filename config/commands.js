@@ -83,7 +83,6 @@ const commands = {
     term.displayURL("https://www.linkedin.com/company/hack2tfuture");
   },
 
-
   discord: function () {
     term.openURL(club);
   },
