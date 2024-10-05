@@ -144,5 +144,5 @@ function colorText(text, color) {
     "prompt": "\x1b[1;32m",
     "bold": "\x1b[1;37m"
   }
-  return `${colors[color] || ""}${text}\x1b[38;5;147m`;
+  return `${colors[color] || ""}${text}\x1b[0;38m`;
 }
