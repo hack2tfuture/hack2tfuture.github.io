@@ -139,9 +139,11 @@ function runCommitTerminal(term) {
 function colorText(text, color) {
   const colors = {
     "command": "\x1b[38;5;75m",
-    "hyperlink": "\x1b[38;5;202m",
+    "hyperlink": "\x1b[38;2;254;199;0m",
+    // "sep": "\x1b[38;2;254;199;0m",
+    // "host": "\x1b[38;2;254;199;0m",
     "user": "\x1b[38;5;119m",
-    "prompt": "\x1b[1;32m",
+    "prompt": "\x1b[38;5;119m",
     "bold": "\x1b[1;37m"
   }
   return `${colors[color] || ""}${text}\x1b[0;38m`;
