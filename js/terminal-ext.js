@@ -13,7 +13,7 @@ extend = (term) => {
   term.VERSION = term.VERSION || 2;
   term.currentLine = "";
   term.user = "hacker";
-  term.host = "rick";
+  term.host = "hackfuture";
   term.cwd = "~";
   term.sep = "@";
   term._promptChar = "$";
