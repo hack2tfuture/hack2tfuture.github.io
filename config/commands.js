@@ -1,11 +1,11 @@
 const about =
-  "Hack to the Future is a community of teen innovators working on exciting projects. We collaborate to code, build, and create cool hardware and software. With a strong focus on open-source projects, we invite everyone to dive in, contribute, and learn together.";
-  const about2 =
+  "Hack to the Future is a community of teen innovators working on exciting projects. We collaborate to code, build, and create cool software and hardware. With a strong focus on open-source projects, we invite everyone to dive in, contribute, and learn together.";
+const about2 =
   "We also support your cool projects through microgrants, type %hackfund% for more details.";
-  const about3 =
+const about3 =
   "Type %join% to become a member of our community and connect with fellow innovators!";
 
-  const timeUnit = 10; // useful for development, set to 10 to run faster, set to 1000 for production
+const timeUnit = 10; // useful for development, set to 10 to run faster, set to 1000 for production
 let killed = false;
 
 const club = "https://discord.gg/KYBBbEtR9h";
@@ -17,7 +17,7 @@ const commands = {
       const cmd = kv[0];
       const desc = kv[1];
       if (term.cols >= 80) {
-        const rightPad = maxCmdLength - cmd.length + 7;
+        const rightPad = maxCmdLength - cmd.length + 13;
         const sep = " ".repeat(rightPad);
         term.stylePrint(`${cmd}${sep}${desc}`);
       } else {
