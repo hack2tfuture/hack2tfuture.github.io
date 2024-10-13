@@ -17,7 +17,7 @@ const commands = {
       const cmd = kv[0];
       const desc = kv[1];
       if (term.cols >= 80) {
-        const rightPad = maxCmdLength - cmd.length + 13;
+        const rightPad = maxCmdLength - cmd.length + 12;
         const sep = " ".repeat(rightPad);
         term.stylePrint(`${cmd}${sep}${desc}`);
       } else {
